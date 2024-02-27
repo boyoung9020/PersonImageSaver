@@ -1,4 +1,4 @@
-# BreadcrumbsPersonImageSaver
+# PersonImageSaver
 
 얼굴인식 모델 학습을 위한 이미지 저장기
 
@@ -55,7 +55,7 @@ $ python imgsaver.py
 5. 이미지를 저장할 방법을 정합니다. <br>
   ▶️  selenium은 느리지만 정확성이있고 대규모로 저장이 가능 합니다. <br>
   ▶️  googleCSE는 빠르지만 최대 10장까지만 가능합니다.
- 저장할 이미지의 갯수가 10개 이상이라면 googleCSE의 체크가 불가능 합니다.
+      저장할 이미지의 갯수가 10개 초과면 googleCSE의 체크가 불가능 합니다.
 6. 이미지 저장을 시작하는 버튼입니다. <br>
    이미지들은 스크립트의 실행위치의 Person_archive 디렉토리에 저장됩니다.
 7. 저장되고있는 이미지의 진행률을 볼수있는 progressbar입니다.
